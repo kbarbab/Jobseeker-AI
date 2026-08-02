@@ -111,6 +111,8 @@ VISA_NEGATION_PHRASES = [
     "not provide visa sponsorship", "does not provide visa sponsorship",
     "no sponsorship available", "not offer sponsorship", "not offer visa sponsorship",
     "without requiring sponsorship", "not require sponsorship",
+    "unable to offer visa sponsorship", "unable to provide visa sponsorship",
+    "unable to offer sponsorship",
 ]
 
 # Coarse location allowlist — jobs must mention one of these to pass the region

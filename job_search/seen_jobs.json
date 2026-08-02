@@ -10,5 +10,77 @@
     "first_seen": "2026-08-02T15:23:29.170036+00:00",
     "title": "Senior Developer",
     "url": "https://www.adzuna.com.au/details/5811673031?utm_medium=api&utm_source=eb4e83e0"
+  },
+  "adzuna:gb-5624964660": {
+    "company": "AURORA",
+    "first_seen": "2026-08-02T19:04:06.457854+00:00",
+    "title": "Founding Product Engineer (AI & Agentic Systems)",
+    "url": "https://www.adzuna.co.uk/jobs/details/5624964660?utm_medium=api&utm_source=eb4e83e0"
+  },
+  "ashby:photoroom-085eaa32-44fe-4928-8826-b48873823bfd": {
+    "company": "photoroom",
+    "first_seen": "2026-08-02T19:04:06.457854+00:00",
+    "title": "Head of GenAI Platform",
+    "url": "https://jobs.ashbyhq.com/photoroom/085eaa32-44fe-4928-8826-b48873823bfd"
+  },
+  "ashby:pleo-13b0347d-dc60-472b-bc62-9d0653f1003f": {
+    "company": "pleo",
+    "first_seen": "2026-08-02T19:04:06.457854+00:00",
+    "title": "Engineering Manager, GenAI Platform",
+    "url": "https://jobs.ashbyhq.com/pleo/13b0347d-dc60-472b-bc62-9d0653f1003f"
+  },
+  "ashby:pleo-2754261d-d959-4d47-9661-260ef3352b34": {
+    "company": "pleo",
+    "first_seen": "2026-08-02T19:04:06.457854+00:00",
+    "title": "Engineering Manager, GenAI Platform",
+    "url": "https://jobs.ashbyhq.com/pleo/2754261d-d959-4d47-9661-260ef3352b34"
+  },
+  "ashby:pleo-3f30df79-b7b7-4dd2-8ebd-4c1f2bba15e2": {
+    "company": "pleo",
+    "first_seen": "2026-08-02T19:04:06.457854+00:00",
+    "title": "Staff Applied AI Engineer",
+    "url": "https://jobs.ashbyhq.com/pleo/3f30df79-b7b7-4dd2-8ebd-4c1f2bba15e2"
+  },
+  "ashby:pleo-4bc838e7-d9c2-4d96-af9c-0d4760ad64f7": {
+    "company": "pleo",
+    "first_seen": "2026-08-02T19:04:06.457854+00:00",
+    "title": "Senior GenAI Platform Engineer",
+    "url": "https://jobs.ashbyhq.com/pleo/4bc838e7-d9c2-4d96-af9c-0d4760ad64f7"
+  },
+  "ashby:pleo-934035cd-c8f1-4b93-b7ea-59e6d2f3ba0b": {
+    "company": "pleo",
+    "first_seen": "2026-08-02T19:04:06.457854+00:00",
+    "title": "Senior GenAI Platform Engineer",
+    "url": "https://jobs.ashbyhq.com/pleo/934035cd-c8f1-4b93-b7ea-59e6d2f3ba0b"
+  },
+  "ashby:pleo-faf9b3ab-99a3-463a-8fca-32bfcc97f000": {
+    "company": "pleo",
+    "first_seen": "2026-08-02T19:04:06.457854+00:00",
+    "title": "Staff Applied AI Engineer",
+    "url": "https://jobs.ashbyhq.com/pleo/faf9b3ab-99a3-463a-8fca-32bfcc97f000"
+  },
+  "greenhouse:helsing-4778869101": {
+    "company": "Helsing",
+    "first_seen": "2026-08-02T19:04:06.457854+00:00",
+    "title": "AI Research Engineer - ML Engineering",
+    "url": "https://helsing.ai/jobs/4778869101?gh_jid=4778869101"
+  },
+  "greenhouse:sumup-8498275002": {
+    "company": "SumUp",
+    "first_seen": "2026-08-02T19:04:06.457854+00:00",
+    "title": "Senior Machine Learning Engineer I",
+    "url": "https://sumup.com/careers/positions/8498275002?gh_jid=8498275002"
+  },
+  "greenhouse:wayve-8622189002": {
+    "company": "Wayve",
+    "first_seen": "2026-08-02T19:04:06.457854+00:00",
+    "title": "Machine Learning Engineer, ADAS",
+    "url": "https://wayve.firststage.co/jobs?gh_jid=8622189002"
+  },
+  "greenhouse:wayve-8622191002": {
+    "company": "Wayve",
+    "first_seen": "2026-08-02T19:04:06.457854+00:00",
+    "title": "Machine Learning Engineer, ADAS",
+    "url": "https://wayve.firststage.co/jobs?gh_jid=8622191002"
   }
 }
