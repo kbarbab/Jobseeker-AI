@@ -1,0 +1,46 @@
+{
+  "name": "Your Name",
+  "location": "Your City, Country",
+  "email": "you@example.com",
+  "phone": "+000 000 0000",
+  "links": {
+    "linkedin": "https://linkedin.com/in/yourhandle",
+    "github": "https://github.com/yourhandle"
+  },
+  "summary": "One paragraph: years of experience, core stack (.NET/C#/ASP.NET/Azure/etc.), the kind of role you're targeting, and that you're open to relocation.",
+  "skills": [
+    "C#", ".NET Core", "ASP.NET", "Entity Framework", "SQL Server", "Azure", "REST APIs"
+  ],
+  "experience": [
+    {
+      "company": "Company Name",
+      "title": "Job Title",
+      "location": "City, Country",
+      "start_date": "YYYY-MM",
+      "end_date": "YYYY-MM or Present",
+      "bullets": [
+        "Achievement or responsibility, quantified where possible.",
+        "Another bullet."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University Name",
+      "degree": "Degree, Field",
+      "start_date": "YYYY",
+      "end_date": "YYYY"
+    }
+  ],
+  "certifications": [],
+  "projects": [
+    {
+      "name": "Project Name",
+      "technologies": ["Tech 1", "Tech 2"],
+      "bullets": [
+        "What you built and the impact/result.",
+        "Another bullet."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+name: Job search agent
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # ~7-8am Central European time (business-day start)
+    - cron: "0 22 * * *"  # ~8-9am Australian Eastern time (business-day start)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          npm install -g @anthropic-ai/claude-code
+
+      - name: Run job search agent
+        env:
+          # Subscription-backed auth for Claude Code (see README: `claude setup-token`).
+          # Deliberately no ANTHROPIC_API_KEY here — if set, Claude Code prefers it
+          # over this token even in headless mode, which would switch billing to
+          # metered pay-as-you-go instead of the Pro/Max subscription.
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          ADZUNA_COUNTRIES: ${{ vars.ADZUNA_COUNTRIES }}
+          JOOBLE_API_KEY: ${{ secrets.JOOBLE_API_KEY }}
+          THEMUSE_API_KEY: ${{ secrets.THEMUSE_API_KEY }}
+          GREENHOUSE_COMPANIES: ${{ vars.GREENHOUSE_COMPANIES }}
+          LEVER_COMPANIES: ${{ vars.LEVER_COMPANIES }}
+          ASHBY_COMPANIES: ${{ vars.ASHBY_COMPANIES }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NOTIFY_TO: ${{ secrets.NOTIFY_TO }}
+          ENABLE_LINKEDIN_INDEED: ${{ vars.ENABLE_LINKEDIN_INDEED }}
+          JOB_QUERY: ${{ vars.JOB_QUERY }}
+          AI_JOB_QUERY: ${{ vars.AI_JOB_QUERY }}
+        run: python -m job_search.main
+
+      # Only seen_jobs.json is committed back — job_search/drafts/ and
+      # dashboard_data.json contain tailored resumes/cover letters (personal
+      # data) and are gitignored on purpose, since this repo is public. The
+      # email digest is what delivers those; the dashboard is a local-only view.
+      - name: Commit updated seen_jobs.json
+        run: |
+          git config user.name "job-search-agent"
+          git config user.email "actions@users.noreply.github.com"
+          git add job_search/seen_jobs.json
+          git diff --cached --quiet || git commit -m "Update seen jobs"
+          git push

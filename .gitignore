@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+gmail_oauth_client_secret.json
+gmail_oauth_token.json
+
+# Generated personal content (tailored resumes/cover letters, contact emails
+# detected in postings) — this repo is public, so these stay local-only.
+# job_search/seen_jobs.json IS tracked (deliberately not listed here): it only
+# holds public job-posting titles/URLs, not personal data, and the scheduled
+# workflow needs it committed back to avoid re-notifying the same jobs daily.
+job_search/drafts/
+job_search/dashboard_data.json
