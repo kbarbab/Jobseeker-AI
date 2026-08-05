@@ -1,4 +1,5 @@
 import logging
+import os
 import sys
 import traceback
 
@@ -68,7 +69,36 @@ def fetch_all_jobs() -> list[dict]:
     return _dedupe_within_run(all_jobs)
 
 
+def check_config() -> list[str]:
+    """Returns human-readable descriptions of missing *required* configuration.
+    Without this check, a run with no secrets configured at all still exits
+    0 ("success" in GitHub Actions) after silently skipping every credentialed
+    step — misleading, since nothing useful actually happened. This doesn't
+    catch wrong-but-present values (e.g. an invalid app password still only
+    surfaces as a runtime SMTP error), only the "never configured" case."""
+    problems = []
+    if not config.GMAIL_ADDRESS or not config.GMAIL_APP_PASSWORD:
+        problems.append(
+            "GMAIL_ADDRESS / GMAIL_APP_PASSWORD are not set — the digest email "
+            "can never be sent without these (see README step 3)."
+        )
+    running_in_ci = os.environ.get("GITHUB_ACTIONS") == "true"
+    if running_in_ci and not os.environ.get("CLAUDE_CODE_OAUTH_TOKEN") and not os.environ.get("ANTHROPIC_API_KEY"):
+        problems.append(
+            "Running in GitHub Actions with neither CLAUDE_CODE_OAUTH_TOKEN nor "
+            "ANTHROPIC_API_KEY set — tailoring will fail for every job (see "
+            "README step 2b: `claude setup-token`)."
+        )
+    return problems
+
+
 def run() -> None:
+    problems = check_config()
+    if problems:
+        for problem in problems:
+            log.error("CONFIG PROBLEM: %s", problem)
+        raise RuntimeError("Missing required configuration: " + " | ".join(problems))
+
     all_jobs = fetch_all_jobs()
     log.info("total fetched: %d", len(all_jobs))
 
