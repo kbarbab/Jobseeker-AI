@@ -173,6 +173,12 @@
     "title": "Product ML Engineer",
     "url": "https://jobs.ashbyhq.com/photoroom/1073f2ae-906a-42ae-bb5f-96981a2555cf"
   },
+  "ashby:photoroom-7c34d35a-c405-4d19-bd6a-38f8dd2081a7": {
+    "company": "photoroom",
+    "first_seen": "2026-09-28T13:32:55.697579+00:00",
+    "title": "Staff Product Manager, Agentic & AI Platform",
+    "url": "https://jobs.ashbyhq.com/photoroom/7c34d35a-c405-4d19-bd6a-38f8dd2081a7"
+  },
   "ashby:pleo-13b0347d-dc60-472b-bc62-9d0653f1003f": {
     "company": "pleo",
     "first_seen": "2026-08-02T19:04:06.457854+00:00",
@@ -209,6 +215,12 @@
     "title": "Staff Applied AI Engineer",
     "url": "https://jobs.ashbyhq.com/pleo/faf9b3ab-99a3-463a-8fca-32bfcc97f000"
   },
+  "greenhouse:anthropic-5354765008": {
+    "company": "Anthropic",
+    "first_seen": "2026-09-28T13:32:55.697579+00:00",
+    "title": "Applied AI Engineer, Enterprise",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5354765008"
+  },
   "greenhouse:anthropic-5390754008": {
     "company": "Anthropic",
     "first_seen": "2026-08-20T22:20:02.556561+00:00",
@@ -232,6 +244,12 @@
     "first_seen": "2026-09-23T11:15:05.642441+00:00",
     "title": "Applied AI Engineer, Startups",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432575008"
+  },
+  "greenhouse:anthropic-5435282008": {
+    "company": "Anthropic",
+    "first_seen": "2026-09-28T13:32:55.697579+00:00",
+    "title": "Applied AI Engineer, DNB",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5435282008"
   },
   "greenhouse:helsing-4778869101": {
     "company": "Helsing",
