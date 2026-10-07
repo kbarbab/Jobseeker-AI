@@ -35,6 +35,12 @@
     "title": "Applied AI Engineer, AI for Mistral",
     "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/applied-ai-engineer-ai-for-mistral-paris-166874"
   },
+  "arbeitnow:applied-ai-engineer-beneficial-deployments-life-sciences-clinical-trials-drug-repurposing-london-183917": {
+    "company": "anthropic",
+    "first_seen": "2026-10-07T01:11:15.747541+00:00",
+    "title": "Applied AI Engineer, Beneficial Deployments (Life Sciences - Clinical Trials/Drug Repurposing)",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/anthropic/applied-ai-engineer-beneficial-deployments-life-sciences-clinical-trials-drug-repurposing-london-183917"
+  },
   "arbeitnow:applied-ai-engineer-codex-london-19305": {
     "company": "Openai",
     "first_seen": "2026-09-12T10:28:44.050423+00:00",
@@ -52,6 +58,12 @@
     "first_seen": "2026-09-24T11:31:05.813618+00:00",
     "title": "Applied AI Engineer, Codex",
     "url": "https://www.arbeitnow.fr/jobs/companies/openai/applied-ai-engineer-codex-paris-438757"
+  },
+  "arbeitnow:applied-ai-engineer-dnb-london-292171": {
+    "company": "anthropic",
+    "first_seen": "2026-10-07T01:11:15.747541+00:00",
+    "title": "Applied AI Engineer, DNB",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/anthropic/applied-ai-engineer-dnb-london-292171"
   },
   "arbeitnow:applied-ai-engineer-enterprise-munich-284302": {
     "company": "anthropic",
@@ -280,6 +292,12 @@
     "first_seen": "2026-09-28T13:32:55.697579+00:00",
     "title": "Applied AI Engineer, DNB",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5435282008"
+  },
+  "greenhouse:anthropic-5445760008": {
+    "company": "Anthropic",
+    "first_seen": "2026-10-07T01:11:15.747541+00:00",
+    "title": "Applied AI Engineer, Beneficial Deployments (Life Sciences - Clinical Trials/Drug Repurposing)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5445760008"
   },
   "greenhouse:helsing-4778869101": {
     "company": "Helsing",
