@@ -125,6 +125,12 @@
     "title": "Applied AI, Forward Deployed Machine Learning Engineer - London",
     "url": "https://www.arbeitnow.co.uk/jobs/companies/mistralai/applied-ai-forward-deployed-machine-learning-engineer-london-493270"
   },
+  "arbeitnow:machine-learning-engineer-cloud-mlops-genai-relocation-provided-amsterdam-163883": {
+    "company": "Wypoon",
+    "first_seen": "2026-10-16T11:14:42.591371+00:00",
+    "title": "Machine Learning Engineer \u2013 Cloud | MLOps | GenAI (Relocation provided)",
+    "url": "https://www.arbeitnow.nl/jobs/companies/wypoon/machine-learning-engineer-cloud-mlops-genai-relocation-provided-amsterdam-163883"
+  },
   "arbeitnow:manager-applied-ai-engineering-codex-munich-313351": {
     "company": "OpenAI",
     "first_seen": "2026-09-12T23:38:27.822943+00:00",
@@ -155,6 +161,18 @@
     "title": "Multimodal ML Engineer",
     "url": "https://www.arbeitnow.fr/jobs/companies/whitecircle/multimodal-ml-engineer-paris-374661"
   },
+  "arbeitnow:principal-machine-learning-engineer-applied-ai-llms-berlin-berlin-429414": {
+    "company": "Doctolib",
+    "first_seen": "2026-10-16T11:14:42.591371+00:00",
+    "title": "Principal Machine Learning Engineer - Applied AI & LLMs (x/f/m)",
+    "url": "https://www.arbeitnow.com/jobs/companies/doctolib/principal-machine-learning-engineer-applied-ai-llms-berlin-berlin-429414"
+  },
+  "arbeitnow:principal-machine-learning-engineer-driving-product-london-united-kingdom-1868": {
+    "company": "Wayve",
+    "first_seen": "2026-10-16T11:14:42.591371+00:00",
+    "title": "Principal Machine Learning Engineer, Driving Product",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/wayve/principal-machine-learning-engineer-driving-product-london-united-kingdom-1868"
+  },
   "arbeitnow:product-engineer-full-stack-agentic-ai-berlin-329659": {
     "company": "Clera",
     "first_seen": "2026-08-09T07:07:08.333525+00:00",
@@ -173,6 +191,24 @@
     "title": "Research Scientist/Engineer (Agentic Systems)",
     "url": "https://www.arbeitnow.fr/jobs/companies/whitecircle/research-scientist-engineer-agentic-systems-paris-217452"
   },
+  "arbeitnow:senior-applied-ml-engineer-kimchi-model-router-165679": {
+    "company": "Kimchi",
+    "first_seen": "2026-10-16T11:14:42.591371+00:00",
+    "title": "Senior Applied ML Engineer | Kimchi (Model Router)",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/kimchi/senior-applied-ml-engineer-kimchi-model-router-165679"
+  },
+  "arbeitnow:senior-applied-ml-engineer-kimchi-model-router-336004": {
+    "company": "Kimchi",
+    "first_seen": "2026-10-16T11:14:42.591371+00:00",
+    "title": "Senior Applied ML Engineer | Kimchi (Model Router)",
+    "url": "https://www.arbeitnow.nl/jobs/companies/kimchi/senior-applied-ml-engineer-kimchi-model-router-336004"
+  },
+  "arbeitnow:senior-applied-ml-engineer-kimchi-model-router-402728": {
+    "company": "Kimchi",
+    "first_seen": "2026-10-16T11:14:42.591371+00:00",
+    "title": "Senior Applied ML Engineer | Kimchi (Model Router)",
+    "url": "https://www.arbeitnow.com/jobs/companies/kimchi/senior-applied-ml-engineer-kimchi-model-router-402728"
+  },
   "arbeitnow:senior-machine-learning-engineer-berlin-164736": {
     "company": "SumUp",
     "first_seen": "2026-10-14T11:34:45.933658+00:00",
@@ -184,6 +220,30 @@
     "first_seen": "2026-10-15T00:13:25.997860+00:00",
     "title": "Senior Machine Learning Engineer",
     "url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-machine-learning-engineer-berlin-418511"
+  },
+  "arbeitnow:senior-ml-engineer-kimchi-inference-stack-optimization-248455": {
+    "company": "Kimchi",
+    "first_seen": "2026-10-16T11:14:42.591371+00:00",
+    "title": "Senior ML Engineer | Kimchi (Inference Stack Optimization)",
+    "url": "https://www.arbeitnow.com/jobs/companies/kimchi/senior-ml-engineer-kimchi-inference-stack-optimization-248455"
+  },
+  "arbeitnow:senior-ml-engineer-kimchi-inference-stack-optimization-375002": {
+    "company": "Kimchi",
+    "first_seen": "2026-10-16T11:14:42.591371+00:00",
+    "title": "Senior ML Engineer | Kimchi (Inference Stack Optimization)",
+    "url": "https://www.arbeitnow.nl/jobs/companies/kimchi/senior-ml-engineer-kimchi-inference-stack-optimization-375002"
+  },
+  "arbeitnow:senior-ml-engineer-kimchi-inference-stack-optimization-91477": {
+    "company": "Kimchi",
+    "first_seen": "2026-10-16T11:14:42.591371+00:00",
+    "title": "Senior ML Engineer | Kimchi (Inference Stack Optimization)",
+    "url": "https://www.arbeitnow.fr/jobs/companies/kimchi/senior-ml-engineer-kimchi-inference-stack-optimization-91477"
+  },
+  "arbeitnow:senior-ml-engineer-kimchi-inference-stack-optimization-95364": {
+    "company": "Kimchi",
+    "first_seen": "2026-10-16T11:14:42.591371+00:00",
+    "title": "Senior ML Engineer | Kimchi (Inference Stack Optimization)",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/kimchi/senior-ml-engineer-kimchi-inference-stack-optimization-95364"
   },
   "arbeitnow:senior-ml-engineer-kimchi-llm-inference-optimization-160265": {
     "company": "Kimchi",
