@@ -29,6 +29,12 @@
     "title": "Agentic Marketing Analyst",
     "url": "https://www.arbeitnow.co.uk/jobs/companies/privateequityinsights/agentic-marketing-analyst-london-16862"
   },
+  "arbeitnow:agentic-marketing-associate-london-150753": {
+    "company": "Unitedmedia",
+    "first_seen": "2026-11-17T04:19:01.977929+00:00",
+    "title": "Agentic Marketing Associate",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/unitedmedia/agentic-marketing-associate-london-150753"
+  },
   "arbeitnow:agentic-marketing-associate-london-263610": {
     "company": "Privateequityinsights",
     "first_seen": "2026-11-02T01:09:02.825320+00:00",
@@ -40,6 +46,12 @@
     "first_seen": "2026-11-02T01:09:02.825320+00:00",
     "title": "Agentic Marketing Consultant",
     "url": "https://www.arbeitnow.co.uk/jobs/companies/privateequityinsights/agentic-marketing-consultant-london-108532"
+  },
+  "arbeitnow:agentic-marketing-engineer-london-155173": {
+    "company": "Unitedmedia",
+    "first_seen": "2026-11-17T04:19:01.977929+00:00",
+    "title": "Agentic Marketing Engineer",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/unitedmedia/agentic-marketing-engineer-london-155173"
   },
   "arbeitnow:agentic-marketing-engineer-london-179381": {
     "company": "Privateequityinsights",
@@ -197,6 +209,12 @@
     "title": "Applied AI Engineer",
     "url": "https://www.arbeitnow.co.uk/jobs/companies/openai/applied-ai-engineer-london-15889"
   },
+  "arbeitnow:applied-ai-engineer-startups-london-12962": {
+    "company": "Openai",
+    "first_seen": "2026-11-17T04:19:01.977929+00:00",
+    "title": "Applied AI Engineer - Startups",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/openai/applied-ai-engineer-startups-london-12962"
+  },
   "arbeitnow:applied-ai-forward-deployed-machine-learning-engineer-internship-paris-169431": {
     "company": "Mistral.ai",
     "first_seen": "2026-11-04T01:49:05.861178+00:00",
@@ -286,6 +304,12 @@
     "first_seen": "2026-08-08T22:21:51.301448+00:00",
     "title": "Product Engineer (Full-Stack / Agentic AI)",
     "url": "https://www.arbeitnow.com/jobs/companies/clera/product-engineer-full-stack-agentic-ai-berlin-337996"
+  },
+  "arbeitnow:product-ml-engineer-paris-117267": {
+    "company": "Photoroom",
+    "first_seen": "2026-11-17T04:19:01.977929+00:00",
+    "title": "Product ML Engineer",
+    "url": "https://www.arbeitnow.fr/jobs/companies/photoroom/product-ml-engineer-paris-117267"
   },
   "arbeitnow:product-ml-engineer-paris-199968": {
     "company": "Photoroom",
